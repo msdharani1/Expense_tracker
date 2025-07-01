@@ -4,7 +4,7 @@
     "slug": "splitwise-expense-tracker",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/images/icon.png",
+    "icon": "./assets/images/icon.svg",
     "scheme": "splitwise",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
@@ -16,13 +16,13 @@
       "versionCode": 1,
       "package": "com.splitwise.expensetracker",
       "adaptiveIcon": {
-        "foregroundImage": "./assets/images/icon.png"
+        "foregroundImage": "./assets/images/icon.svg"
       }
     },
     "web": {
       "bundler": "metro",
       "output": "single",
-      "favicon": "./assets/images/icon.png"
+      "favicon": "./assets/images/icon.svg"
     },
     "plugins": [
       "expo-router",

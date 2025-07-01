@@ -3,15 +3,6 @@
     "appVersionSource": "local"
   },
   "build": {
-    "production": {
-      "node": "18.18.0",
-      "android": {
-        "buildType": "apk"
-      },
-      "hooks": {
-        "preinstall": "npm install --legacy-peer-deps"
-      }
-    },
     "preview": {
       "distribution": "internal",
       "android": {
