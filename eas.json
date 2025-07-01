@@ -3,6 +3,11 @@
     "appVersionSource": "local"
   },
   "build": {
+    "production": {
+      "npm": "8",
+      "node": "18",
+      "npmArgs": ["--legacy-peer-deps"]
+    },
     "preview": {
       "distribution": "internal",
       "android": {
