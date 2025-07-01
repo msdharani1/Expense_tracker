@@ -4,9 +4,13 @@
   },
   "build": {
     "production": {
-      "npm": "8",
-      "node": "18",
-      "npmArgs": ["--legacy-peer-deps"]
+      "node": "18.18.0",
+      "android": {
+        "buildType": "apk"
+      },
+      "hooks": {
+        "preinstall": "npm install --legacy-peer-deps"
+      }
     },
     "preview": {
       "distribution": "internal",
